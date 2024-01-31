@@ -4,8 +4,6 @@
 
 ## Linha 3
 
-#Olá Mundo
-
 
 * opt
 * **opt2**
