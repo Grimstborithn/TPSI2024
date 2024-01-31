@@ -5,5 +5,6 @@
 ## Linha 3
 
 * opt
-* * **opt2**
+* **opt2**
 1. teste
+2. teste2
