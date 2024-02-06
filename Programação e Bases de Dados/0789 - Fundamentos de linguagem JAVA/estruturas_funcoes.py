@@ -15,7 +15,7 @@ def exerc_2(n):
             print (j+1, end=" ")
         print("\n")       
 
-exerc_2(inputUtilizador)
+
 
 
 
