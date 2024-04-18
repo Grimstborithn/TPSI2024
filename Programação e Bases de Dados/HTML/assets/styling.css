@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.body {
+    min-height: 100vh;
+    background: white;
+}
+.bg {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.bubbles{
+    z-index: 10;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    border-radius:  50%;
+    background: #4fc3dc;   
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(300s / var(--i));
+}
+.bubbles span:nth-child(even){
+    background: #ff2d75;   
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+}
+@keyframes animate{
+    0% {
+        transform: translateY(150vh) scale(0);
+    }
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+#redes_sociais {
+    text-align: right;
+    padding-top: 10px;
+}
+.sociais {
+    border: 0ch;
+    background-color: transparent;
+}
+.GAME {
+    font-family:  "Gill Sans Extrabold", sans-serif;
+    font-size: 10vw;
+    color: red;
+}
+.ON {
+        font-family:  "Gill Sans Extrabold", sans-serif;
+        font-size: 20vw;
+
+        color: transparent;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-image: url(/assets/images/blueredBG2.webp);
+        background-size: 120%;
+        animation: bg-animation 30s cubic-bezier(0.3,0,0.7,1) infinite;
+}
+@keyframes bg-animation {
+    0% {background-position: 0% 0%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 0%;}
+ }
+.h7 {
+
+}
