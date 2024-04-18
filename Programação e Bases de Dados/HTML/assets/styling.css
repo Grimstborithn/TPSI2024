@@ -1,7 +1,6 @@
 @charset "UTF-8";
 .body {
     min-height: 100vh;
-    background: white;
 }
 .bg {
     position: relative;
@@ -59,12 +58,11 @@
 .ON {
         font-family:  "Gill Sans Extrabold", sans-serif;
         font-size: 20vw;
-
         color: transparent;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        background-image: url(/assets/images/blueredBG2.webp);
+        background-image: url("/assets/images/blueredBG2.webp");
         background-size: 120%;
         animation: bg-animation 30s cubic-bezier(0.3,0,0.7,1) infinite;
 }
