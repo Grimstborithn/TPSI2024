@@ -74,3 +74,38 @@
 .h7 {
 
 }
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efeito de levantar o cartão ao passar o mouse */
+}
+
+.card-img-top {
+    height: 200px; /* Altura da imagem do produto */
+    object-fit: contain; /* Ajusta a imagem ao tamanho do container */
+}
+.gamered {
+    color: red;
+}
+.changingsizeON {
+    animation: changeSize 0.9s infinite alternate; /* Define a animação */
+}
+
+@keyframes changeSize {
+    0% {
+        font-size: 20px; /* Tamanho inicial */
+    }
+    50% {
+        font-size: 33px; /* Tamanho médio */
+    }
+    100% {
+        font-size: 36px; /* Tamanho final */
+    }
+}
+.cat-image {
+    overflow: hidden; /* Esconde parte da imagem fora do círculo */
+    width: 100%; /* Ajusta largura da imagem para preencher o container */
+    height: auto; /* Mantém proporção da imagem */
+}
