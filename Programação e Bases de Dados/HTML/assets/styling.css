@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .body {
-    min-height: 100vh;
+    min-height: 1000%;
 }
 .bg {
     position: relative;
@@ -15,6 +15,7 @@
     width: 100%;
     height: 100%;
 }
+
 .bubbles span{
     position: relative;
     width: 30px;
@@ -30,7 +31,7 @@
 }
 .bubbles span:nth-child(even){
     background: #ff2d75;   
-    box-shadow: 0 0 0 10px #ff2d7544,
+    box-shadow: 0 0 0 10px #ff2d7544, 
     0 0 50px #ff2d75,
     0 0 100px #ff2d75;
 }
@@ -71,13 +72,10 @@
     50% {background-position: 100% 100%;}
     100% {background-position: 0% 0%;}
  }
-.h7 {
-
-}
 .card {
     transition: transform 0.2s;
+    border: 1px solid #4fc3dc;
 }
-
 .card:hover {
     transform: translateY(-10px); /* Efeito de levantar o cartão ao passar o mouse */
 }
@@ -95,17 +93,20 @@
 
 @keyframes changeSize {
     0% {
-        font-size: 20px; /* Tamanho inicial */
+        font-size: calc(1rem); /* Tamanho inicial */
     }
     50% {
-        font-size: 33px; /* Tamanho médio */
+        font-size: calc(2rem); /* Tamanho médio */
     }
     100% {
-        font-size: 36px; /* Tamanho final */
+        font-size: calc(2.5); /* Tamanho final */
     }
 }
 .cat-image {
     overflow: hidden; /* Esconde parte da imagem fora do círculo */
     width: 100%; /* Ajusta largura da imagem para preencher o container */
     height: auto; /* Mantém proporção da imagem */
+}
+.categoriashome {
+    border: 3px solid #4fc3dc;
 }
