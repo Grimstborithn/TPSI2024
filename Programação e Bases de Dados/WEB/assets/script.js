@@ -4,5 +4,6 @@ function escreverP (){
     document.getElementById("saida").innerHTML= elemento + novoParagrafo;
 }
 function apagarP() {
-    document.getElementById("saida").innerHTML = ""
+    document.getElementById("saida").innerHTML = "";
+    document.getElementById("direita").innerHTML = "";
 }
