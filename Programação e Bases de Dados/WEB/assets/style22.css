@@ -2,7 +2,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #eb1e1e;
     border-radius: 10px;
     background-color: #f9f9f9;
     color: #cc1616;
@@ -22,7 +22,7 @@
     width: 100%;
     padding: 10px;
     margin: 5px 0 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #eb1e1e;
     border-radius: 5px;
     color: #cc1616;
 }
@@ -50,7 +50,7 @@
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #eb1e1e;
     border-radius: 10px;
     background-color: #e9e9e9;
     color: #cc1616;

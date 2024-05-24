@@ -22,7 +22,7 @@
                 document.getElementById('result-name').textContent = `Nome: ${form.name.value}`;
                 document.getElementById('result-email').textContent = `Email: ${form.email.value}`;
                 document.getElementById('result-birthdate').textContent = `Data de Nascimento: ${form.birthdate.value}`;
-                document.getElementById('result-gender').textContent = `Gênero: ${form.gender.value}`;
+                document.getElementById('result-gender').textContent = `Género: ${form.gender.value}`;
                 document.getElementById('result-bio').textContent = `Biografia: ${form.bio.value}`;
 
                 resultContainer.style.display = 'block';
