@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Interativo</title>
+    <link rel="stylesheet" href="assets/stylet2.css" id="theme-link">
+   
+</head>
+<body>
+    <div class="form-container">
+        <h2>Preencha o Formulário</h2>
+        <div class="date-display" id="current-date"></div>
+        <form id="user-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="birthdate">Data de Nascimento:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            
+            <label for="gender">Género:</label>
+            <select id="gender" name="gender">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+            
+            <label for="bio">Biografia:</label>
+            <textarea id="bio" name="bio" rows="4"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <button id="toggle-theme">Alterar Estilo</button>
+    </div>
+    <div class="result-container" id="result" style="display: none;">
+        <h3>Dados Submetidos</h3>
+        <p id="result-name"></p>
+        <p id="result-email"></p>
+        <p id="result-birthdate"></p>
+        <p id="result-gender"></p>
+        <p id="result-bio"></p>
+    </div>
+</body>
+<script src="assets/script.js"></script>
+</html>
