@@ -1,0 +1,12 @@
+.change-color {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+.toggle-element {
+    display: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: lightblue;
+}
