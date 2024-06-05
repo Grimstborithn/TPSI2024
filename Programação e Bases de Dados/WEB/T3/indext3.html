@@ -1,27 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jQuery UI Slider Example</title>
-    <!-- jQuery UI CSS -->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- jQuery UI -->
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <link rel="stylesheet" href="assetst3/stylet3.css">
+    <title>Página Interativa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .horizontal-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+        }
+        .horizontal-list li {
+            padding: 10px;
+            margin: 5px;
+        }
+        .horizontal-list li:nth-child(odd) {
+            background-color: black;
+            color: white;
+        }
+        .horizontal-list li:nth-child(even) {
+            background-color: white;
+            color: black;
+        }
+        .result {
+            display: flex;
+            align-items: center;
+        }
+        .result img {
+            margin-left: 10px;
+            max-width: 200px;
+            max-height: 200px;
+        }
+    </style>
 </head>
 <body>
-    
-    <button id="changeColorButton">Muda a cor de fundo</button>
-    <button id="toggleButton">Elemento aparece/desaparece</button>
+    <button onclick="addItem()">Adicionar Item</button>
+    <ol id="itemList" class="horizontal-list"></ol>
 
-    <div class="change-color">Elemento 1</div>
-    <div class="change-color">Elemento 2</div>
-    <div class="toggle-element">Elemento que aparece e desaparece</div>
+    <form id="contentForm" onsubmit="handleSubmit(event)">
+        <h2>Preencha o formulário</h2>
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="description">Descrição:</label><br>
+        <textarea id="description" name="description" required></textarea><br><br>
+        <label for="image">Escolha uma imagem:</label><br>
+        <input type="radio" id="image1" name="image" value="image1.jpg" required>
+        <label for="image1"><img src="image1.jpg" alt="Imagem 1" width="100"></label><br>
+        <input type="radio" id="image2" name="image" value="image2.jpg">
+        <label for="image2"><img src="image2.jpg" alt="Imagem 2" width="100"></label><br>
+        <input type="radio" id="image3" name="image" value="image3.jpg">
+        <label for="image3"><img src="image3.jpg" alt="Imagem 3" width="100"></label><br><br>
+        <button type="submit">Enviar</button>
+    </form>
 
-    <div id="slider"></div>
+    <div id="contentResult"></div>
+
+    <script>
+        function addItem() {
+            const value = prompt("Insira um valor:");
+            if (value) {
+                const listItem = document.createElement("li");
+                listItem.textContent = value;
+                document.getElementById("itemList").appendChild(listItem);
+            }
+        }
+
+        function handleSubmit(event) {
+            event.preventDefault();
+            const title = document.getElementById("title").value;
+            const description = document.getElementById("description").value;
+            const image = document.querySelector('input[name="image"]:checked').value;
+
+            const resultDiv = document.getElementById("contentResult");
+            resultDiv.innerHTML = `
+                <h1>${title}</h1>
+                <div class="result">
+                    <p>${description}</p>
+                    <img src="${image}" alt="Imagem escolhida">
+                </div>
+            `;
+        }
+    </script>
 </body>
-<script src="assetst3/jscriptt3.js"></script>
 </html>
