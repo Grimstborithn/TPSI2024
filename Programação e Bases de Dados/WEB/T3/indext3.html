@@ -3,38 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assetst3/stylet3.css">
     <title>Página Interativa</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .horizontal-list {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-        }
-        .horizontal-list li {
-            padding: 10px;
-            margin: 5px;
-        }
-        .horizontal-list li:nth-child(odd) {
-            background-color: black;
-            color: white;
-        }
-        .horizontal-list li:nth-child(even) {
-            background-color: white;
-            color: black;
-        }
-        .result {
-            display: flex;
-            align-items: center;
-        }
-        .result img {
-            margin-left: 10px;
-            max-width: 200px;
-            max-height: 200px;
-        }
-    </style>
 </head>
 <body>
     <button onclick="addItem()">Adicionar Item</button>
@@ -47,42 +17,16 @@
         <label for="description">Descrição:</label><br>
         <textarea id="description" name="description" required></textarea><br><br>
         <label for="image">Escolha uma imagem:</label><br>
-        <input type="radio" id="image1" name="image" value="image1.jpg" required>
-        <label for="image1"><img src="image1.jpg" alt="Imagem 1" width="100"></label><br>
-        <input type="radio" id="image2" name="image" value="image2.jpg">
-        <label for="image2"><img src="image2.jpg" alt="Imagem 2" width="100"></label><br>
-        <input type="radio" id="image3" name="image" value="image3.jpg">
-        <label for="image3"><img src="image3.jpg" alt="Imagem 3" width="100"></label><br><br>
+        <input type="radio" id="image1" name="image" value="assetst3/images/17323707-close-up-de-um-reptil-em-um-galho-de-arvore-contra-um-impressionante-papel-de-parede-de-fundo-natural-hd-foto.jpg" required>
+        <label for="image1"><img src="assetst3/images/17323707-close-up-de-um-reptil-em-um-galho-de-arvore-contra-um-impressionante-papel-de-parede-de-fundo-natural-hd-foto.jpg" alt="Imagem 1" width="100"></label><br>
+        <input type="radio" id="image2" name="image" value="assetst3/images/abstrato-de-lampada-criativa-em-ia-generativa-de-fundo-azul-brilhante_188544-8090.avif">
+        <label for="image2"><img src="assetst3/images/abstrato-de-lampada-criativa-em-ia-generativa-de-fundo-azul-brilhante_188544-8090.avif" alt="Imagem 2" width="100"></label><br>
+        <input type="radio" id="image3" name="image" value="assetst3/images/images.jpeg">
+        <label for="image3"><img src="assetst3/images/images.jpeg" alt="Imagem 3" width="100"></label><br><br>
         <button type="submit">Enviar</button>
     </form>
 
     <div id="contentResult"></div>
-
-    <script>
-        function addItem() {
-            const value = prompt("Insira um valor:");
-            if (value) {
-                const listItem = document.createElement("li");
-                listItem.textContent = value;
-                document.getElementById("itemList").appendChild(listItem);
-            }
-        }
-
-        function handleSubmit(event) {
-            event.preventDefault();
-            const title = document.getElementById("title").value;
-            const description = document.getElementById("description").value;
-            const image = document.querySelector('input[name="image"]:checked').value;
-
-            const resultDiv = document.getElementById("contentResult");
-            resultDiv.innerHTML = `
-                <h1>${title}</h1>
-                <div class="result">
-                    <p>${description}</p>
-                    <img src="${image}" alt="Imagem escolhida">
-                </div>
-            `;
-        }
-    </script>
 </body>
+<script src="assetst3/jscriptt3.js"></script>
 </html>

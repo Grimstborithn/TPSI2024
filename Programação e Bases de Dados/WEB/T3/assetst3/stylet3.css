@@ -1,12 +1,29 @@
-.change-color {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
+body {
+    font-family: Arial, sans-serif;
 }
-.toggle-element {
-    display: none;
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.horizontal-list li {
     padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    background-color: lightblue;
+    margin: 5px;
+}
+.horizontal-list li:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+.horizontal-list li:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+.result {
+    display: flex;
+    align-items: center;
+}
+.result img {
+    margin-left: 10px;
+    max-width: 200px;
+    max-height: 200px;
 }

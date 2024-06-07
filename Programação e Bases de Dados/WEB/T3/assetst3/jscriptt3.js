@@ -1,25 +1,24 @@
-$(function() {
-    // Initialize the slider
-    $("#slider").slider({
-        min: 0,
-        max: 100,
-        slide: function(event, ui) {
-            // Calculate the color based on the slider value
-            var value = ui.value;
-            var colorValue = 255 - Math.round(value * 2.55);
-            var color = `rgb(${colorValue}, ${colorValue}, ${colorValue})`;
-            // Apply the color to the elements
-            $(".change-color").css("background-color", color);
-        }
-    });
+function addItem() {
+    const value = prompt("Insira um valor:");
+    if (value) {
+        const listItem = document.createElement("li");
+        listItem.textContent = value;
+        document.getElementById("itemList").appendChild(listItem);
+    }
+}
 
-    // Change background color of elements with class 'change-color'
-    $("#changeColorButton").click(function() {
-        $(".change-color").css("background-color", "yellow");
-    });
+function handleSubmit(event) {
+    event.preventDefault();
+    const title = document.getElementById("title").value;
+    const description = document.getElementById("description").value;
+    const image = document.querySelector('input[name="image"]:checked').value;
 
-    // Toggle visibility of the element with class 'toggle-element'
-    $("#toggleButton").click(function() {
-        $(".toggle-element").toggle();
-    });
-});
+    const resultDiv = document.getElementById("contentResult");
+    resultDiv.innerHTML = `
+        <h1>${title}</h1>
+        <div class="result">
+            <p>${description}</p>
+            <img src="${image}" alt="Imagem escolhida">
+        </div>
+    `;
+}
