@@ -1,0 +1,7 @@
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicio1pratico\bin\Debug\exercicio1pratico.exe.config
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicio1pratico\bin\Debug\exercicio1pratico.exe
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicio1pratico\bin\Debug\exercicio1pratico.pdb
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicio1pratico\obj\Debug\exercicio1pratico.csproj.AssemblyReference.cache
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicio1pratico\obj\Debug\exercicio1pratico.csproj.CoreCompileInputs.cache
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicio1pratico\obj\Debug\exercicio1pratico.exe
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicio1pratico\obj\Debug\exercicio1pratico.pdb

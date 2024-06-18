@@ -1,0 +1,7 @@
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicios\bin\Debug\exercicios.exe.config
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicios\bin\Debug\exercicios.exe
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicios\bin\Debug\exercicios.pdb
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicios\obj\Debug\exercicios.csproj.AssemblyReference.cache
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicios\obj\Debug\exercicios.csproj.CoreCompileInputs.cache
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicios\obj\Debug\exercicios.exe
+C:\ATECTPSI\TPSI2024\Programação e Bases de Dados\5412 - Programação estruturada\exercicios\exercicios\obj\Debug\exercicios.pdb

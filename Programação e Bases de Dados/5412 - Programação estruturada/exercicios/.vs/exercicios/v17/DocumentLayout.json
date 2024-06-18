@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ATECTPSI\\TPSI2024\\Programa\u00E7\u00E3o e Bases de Dados\\5412 - Programa\u00E7\u00E3o estruturada\\exercicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE6AC2-BB5B-4B00-910A-D89F116FA1A0}|exercicio1pratico\\exercicio1pratico.csproj|c:\\atectpsi\\tpsi2024\\programa\u00E7\u00E3o e bases de dados\\5412 - programa\u00E7\u00E3o estruturada\\exercicios\\exercicio1pratico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE6AC2-BB5B-4B00-910A-D89F116FA1A0}|exercicio1pratico\\exercicio1pratico.csproj|solutionrelative:exercicio1pratico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ATECTPSI\\TPSI2024\\Programa\u00E7\u00E3o e Bases de Dados\\5412 - Programa\u00E7\u00E3o estruturada\\exercicios\\exercicio1pratico\\Program.cs",
+              "RelativeDocumentMoniker": "exercicio1pratico\\Program.cs",
+              "ToolTip": "C:\\ATECTPSI\\TPSI2024\\Programa\u00E7\u00E3o e Bases de Dados\\5412 - Programa\u00E7\u00E3o estruturada\\exercicios\\exercicio1pratico\\Program.cs",
+              "RelativeToolTip": "exercicio1pratico\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T23:24:58.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
